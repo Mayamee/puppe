@@ -1,0 +1,21 @@
+{
+  "name": "nodelistener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-nm": "nodemon ./app/index.js",
+    "test": "node ./app/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "puppeteer": "^13.3.2",
+    "puppeteer-page-proxy": "^1.2.8",
+    "telegraf": "^4.7.0"
+  }
+}
